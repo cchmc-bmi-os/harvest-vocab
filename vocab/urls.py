@@ -1,4 +1,4 @@
-from django.conf.urls.defaults import url, patterns, include
+from django.conf.urls import url, patterns, include
 from .settings import VOCAB_FIELDS
 
 override_fields = '|'.join([str(f) for f in VOCAB_FIELDS])
